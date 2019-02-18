@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+		<html lang="en">
+<head> 
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style1.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>signup</title>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 form">
+    	<h1>Registration Form</h1>
+    	<br>
+    	<br>
+    	<form action="/action_page.php">
+            <div class="form-group">
+            	<div class="row">
+            		<div class="col-md-6">
+            			<div class="form-group">
+              			<label for="fname">First Name</label>
+             			 <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname" required>
+          			</div>
+          		</div>
+
+          			<div class="col-md-6">
+          				<div class="form-group">
+              			<label for="lname">Last Name</label>
+              			<input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname" required>
+          			</div>
+          		</div>
+              	</div>
+
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="Enter Email" name="mail" required>
+            </div>
+
+            <div class="row">
+            		<div class="col-md-6">
+            			<div class="form-group">
+              			<label for="password">Password</label>
+             			 <input type="Password" class="form-control" id="password" placeholder="Enter Password" name="pass1" required>
+          			</div>
+          		</div>
+
+          			<div class="col-md-6">
+          				<div class="form-group">
+              			<label for="confirmpass">Confirm Password</label>
+              			<input type="Password" class="form-control" id="confirmpass"  placeholder="Enter Password Again" name="pass2"required>
+          			</div>
+          		</div>
+              	</div>
+             <div class="form-group">
+             <p>Select Gender:</p>
+			  <label for="male" >Male</label>
+			  <input type="radio" class="radio-inline" name="Gender" id="male">
+			  <label for="female">Female</label>
+			  <input type="radio" class="radio-inline" name="Gender" id="female">
+			  <label for="other">Other</label>
+			  <input type="radio" class="radio-inline" name="Gender" id="other">
+            </div>
+        </div>
+
+         <div class="row">
+            		<div class="col-md-6">
+            			<div class="form-group">
+              			<label for="dob">dob</label>
+             			 <input type="date" class="form-control" name="date" id="dob">
+          			</div>
+          		</div>
+
+          			<div class="col-md-6">
+          				<div class="form-group">
+              			<label for="mobno">Mobile Number</label>
+              			<input type="number" class="form-control" id="mobno" name="mob">
+          			</div>
+          		</div>
+              	</div>
+
+              	<div class="form-group">
+              		<label for="language">Languages Known:</label><br>
+					 
+					  <label for="hindi" >Hindi</label>
+					  <input type="checkbox" name="lang2" class="checkbox-inline" id="hindi">
+					  <label for="english" >English</label>
+					  <input type="checkbox" name="lang1" class="checkbox-inline" id="english">
+					  <label for="chineese" >Chineese</label>
+					  <input type="checkbox" name="lang3" class="checkbox-inline" id="chineese">
+					  <label for="russian">Russian</label>
+					  <input type="checkbox" name="lang4" class="checkbox-inline" id="russian">
+              	</div>
+
+              	<div class="form-group">
+              		<label for="Contry">Select Your Country</label>
+              		<select class="form-group" id="Contry">
+              			<option>Australia</option>
+              			<option>China</option>
+              			<option>India</option>
+              			<option>England</option>
+              			<option>Russia</option>
+              			<option>USA</option>
+              			
+              			</select>
+
+
+              	</div>
+
+              	<div class="form-group">
+              		<label for="img">Choose Image</label>
+              		<input type="file" id="img">
+              	</div>
+              	<div class="row">
+            		<div class="col-md-6">
+            			<div class="form-group btnreset">
+
+            				<button type="reset" class="btn btn-danger"> Reset</button>
+              			
+          			</div>
+          		</div>
+
+          			<div class="col-md-6">
+          				<div class="form-group">
+              			<button type="submit" class="btn btn-success">Continue</button></center>
+          			</div>
+          		</div>
+              	</div>
+
+         </form>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="col-md-6 ">
+    	
+    	<img src="qaimage1.jpg" class="qaimages" alt="QA infotech building">
+    	<br>
+    	<img src="qaimage2.jpg" class="qaimages" alt="prize distribution photo">
+    </div>
+
+    <div class="col-md-3">
+     </div>
+
+ 
+ </div>
+    </div>
+
+</body>
+</html>
