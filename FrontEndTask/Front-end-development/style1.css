@@ -1,0 +1,156 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+}
+body{
+	background: linear-gradient(to bottom left, #ccffff 0%, #ffccff 100%);
+}
+.container{
+	background: linear-gradient(to bottom left, #ccffff 0%, #ffccff 100%);
+	height: 100vh;
+	
+	padding: 1px;
+	
+	
+}
+img {
+	width: 80%;
+	height: 100px;
+}
+#loginimg{
+	height: 200px;
+	width: 150px;
+
+}
+
+
+.form-group{
+	text-align: left;	
+
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+
+
+.fa-google {
+  background: #D63924;
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+.form{
+	background: linear-gradient(to bottom left, #33ccff 0%, #009999 100%);
+	border-radius: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+}
+
+.qaimages{
+	margin-top: 50px;
+	margin-bottom: 10px;
+	
+	width: 100%;
+	height: 100%;
+}
+.btn-danger{
+
+	color: #fff;
+    background-color: #D3413C;
+    border-color: #d43f3a;
+}
+.btn-success {
+    color: #fff;
+    background-color:#3E843E;
+    border-color: #4cae4c;
+}
+input:focus{
+
+	border-style: dotted;
+    border-color: blueviolet;
+    border-width: 2.5px;
+}
+
+.header {
+
+	width: 100%;
+	
+    background: #333;
+    color: white;
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+.main{
+
+	
+	padding:20px;
+	
+}
+.about-qa{
+	
+	
+	padding: 20px;
+	font-size: 20px;
+	
+}
+
+.footer {
+    
+  
+   width: 100%;
+    background: #333;
+    color: white;
+	text-align: center;
+	padding:20px;
+	font-size: 20px;
+	
+  
+}
+.footer-heading{
+	height:100px;
+	padding: 10px;
+}
+.logo-container{
+	height: 100%;
+	width:400px;
+}
+.profilecard-container{
+	
+	height:100%;
+	width:150px;
+	
+
+}
+
+.a-span { height: 1px; 
+	width: 1px; 
+	position: absolute;
+	 overflow: hidden; 
+	 top: -10px; }
+
+	 .btn:focus{
+		border-style: dotted;
+    border-color: blueviolet;
+    border-width: 2px;
+	 }
+
+.signup{
+	padding:50px;
+
+
+}	 
+.time{
+	font-size: 20px;
+	color:rebeccapurple;
+}
